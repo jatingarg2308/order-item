@@ -27,11 +27,11 @@
 
 ## Technical Decisions Made
 
-1. Flask Api was used instead of Django framework
+1. Flask Api was used instead of Django framework \
     Reason: Since it was single api not involving model per se.
 
-2. Library flask_expects_json
+2. Library flask_expects_json \
     Reason: Incoming json schema was known
 
-3. Schema for stored as a yaml
+3. Schema for stored as a yaml \
     Reason: Make it more readable and clean 
